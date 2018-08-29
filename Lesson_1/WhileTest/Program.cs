@@ -16,7 +16,7 @@ namespace WhileTest
      private static void WhileTest()
         {
             int i = 1;
-            while (i <= 5)
+            while (i <= 5)//till TRUE
             {
 
                 Console.WriteLine("The value of i = {0}", i);

@@ -18,7 +18,7 @@ namespace TestSwitchFallThrough
 
         public static void TestSwitchFallThrough()
         {
-            DateTime dt = DateTime.Today;
+            DateTime dt = DateTime.Today; //without break statement it "Falls Throught till first break"
             switch (dt.DayOfWeek)
             {
                 case DayOfWeek.Monday:

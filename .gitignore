@@ -340,3 +340,7 @@ ASALocalRun/
 /Lesson_1/SwitchStatement/SwitchStatement.csproj
 /Lesson_1/SwitchStatement/SwitchStatement.sln
 /Lesson_1/SwitchStatement/Properties/AssemblyInfo.cs
+/Lesson_1/TestSwitchFallThrough/TestSwitchFallThrough.csproj
+/Lesson_1/TestSwitchFallThrough/TestSwitchFallThrough.sln
+/Lesson_1/TestSwitchFallThrough/App.config
+/Lesson_1/TestSwitchFallThrough/Properties/AssemblyInfo.cs

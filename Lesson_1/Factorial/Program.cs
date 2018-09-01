@@ -15,9 +15,9 @@ namespace Factorial
         }
     public static int Factorial (int n)
         {
-            if (n == 0)
+            if (n == 0) //if TRUE
             {
-                return 1; //base case
+                return 1; //base case 
 
             }
             else

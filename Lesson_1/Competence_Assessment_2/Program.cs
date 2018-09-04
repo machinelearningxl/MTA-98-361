@@ -17,20 +17,20 @@ namespace Competence_Assessment_2
 
         public static int Factorial(int n)
         {
+            Console.WriteLine(n); //prints out what value is holding in the Stack
             int fact = 1;
-
             if (n == 1)
             {
                 return fact;
             }
             else
             {
-                fact = Factorial(n-1) * n;
+              fact = Factorial(n-1) * n;
+              return fact;
                 
-                return fact;
-
             }
-            
+
+
 
         }
     }

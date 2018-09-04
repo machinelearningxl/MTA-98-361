@@ -17,7 +17,7 @@ namespace Competence_Assessment_2
 
         public static int Factorial(int n)
         {
-            Console.WriteLine(n); //prints out what value is holding in the Stack
+            Console.WriteLine(n); //prints out values in the Stack
             int fact = 1;
             if (n == 1)
             {

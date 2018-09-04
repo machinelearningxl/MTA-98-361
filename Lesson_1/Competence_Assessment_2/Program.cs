@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Factorial
+namespace Competence_Assessment_2
 {
     class Program
     {
@@ -12,19 +12,25 @@ namespace Factorial
         {
             Console.WriteLine(Factorial(3));
             Console.ReadLine();
-        }
-    public static int Factorial (int n)
-        {
-            if (n == 0) //if TRUE
-            {
-                return 1; //base case 
 
+        }
+
+        public static int Factorial(int n)
+        {
+            int fact = 1;
+
+            if (n == 1)
+            {
+                return fact;
             }
             else
             {
-                int result= Factorial(n - 1);
-                return n * result;
+                fact = Factorial(n-1) * n;
+                
+                return fact;
+
             }
+            
 
         }
     }
